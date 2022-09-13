@@ -1,0 +1,445 @@
+@media (max-width: 320px){
+    
+    .logo img{
+        width:20%; 
+        float: right;
+        
+    }
+    header{
+        height: 28em;
+        background-size: 80%;
+        background-position: bottom center;
+    }
+    
+    .dicionario{
+        padding: 5px  50px ;
+    }
+    
+    .secoes{
+        display: none;
+    }
+
+    #box-servicos{
+        width: 100%;
+        height: 450px;
+       
+    } 
+    .servicos h1 {
+        font-size:20px;
+        
+    }
+    .servicos h2 {
+        font-size: 10px;
+    }
+
+
+
+    .box-planos-single img{
+        width: 50px;
+        height: 50px;
+        margin: 0 auto;
+        margin-left: 40px;
+    }
+
+    .box-planos-single{
+        width: 50%;
+        padding: 0 10px;
+       
+    }
+
+    .box-planos-single h2{
+        font-size:13px;
+        white-space: nowrap;
+        text-align: left;
+        
+    }
+    .box-planos-single p{
+        font-size: 9px ;
+    }
+
+    .box-planos-single2 img{
+        width: 50px;
+        height: 50px;
+        margin: 0 auto;
+    }
+    .box-planos-single2{
+        width: 50%;
+        padding: 0 10px;
+       
+    }
+
+    .box-planos-single2 h2{
+        font-size:13px;
+        white-space: nowrap;
+        text-align: left;
+        
+    }
+    .box-planos-single2 p{
+        font-size: 9px ;
+        text-align: left;
+    }
+
+    #empresa{
+        height:500px;
+    }
+    #metas{
+        width: 30%;
+        margin: 0 auto;
+        align-items: center;
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left:0;
+        right:0;
+    }
+
+    .box-missao{
+        position: absolute;
+        left: 15px;
+        right: 25px;
+        top: 180px;
+    }
+
+    .box-missao h1{
+        font-size:15px;
+    }
+
+    .box-missao p{
+        font-size:9px;
+    }
+    .box-visao{
+        position: absolute;
+        left: 15px;
+        right: 35px;
+        top: 250px;
+    }
+
+    .box-visao h1{
+        font-size:15px;
+    }
+
+    .box-visao p{
+        font-size:9px;
+    }
+    .box-valores{
+        left: 15px;
+        position: absolute;
+        top: 315px;
+    }
+
+    .box-valores h1{
+        font-size:15px;
+    }
+
+    .box-valores p{
+        font-size:9px;
+    }
+
+    .box-funcionarios{
+        display:none;
+         
+    }
+    #clientes{
+        width: 100%;
+        height: 200px;
+        
+    }
+
+    #orcamento{
+        height:450px;
+        display:flex;
+        flex-direction:column;
+    }
+
+    .chamada img{
+        width:200px;
+        height:200px;
+        position:relative;
+        left:20%;
+        margin: 0 auto;
+    }
+
+    .chamada-1{
+        text-align:center;
+        width:100%;
+        margin: 0 auto; 
+        padding-top: 50px;
+        font-size: 10px;
+    }
+
+    .chamada-2{
+        text-align:center;
+        width:100%;
+        margin: 0 auto; 
+        font-size: 9px;
+    }
+
+    #botao{
+        font-size:12px;
+        margin-top: 15%;
+        
+    }
+}
+
+@media (max-width:620px){
+    #menu {
+        display: block;
+        position: absolute;
+        width: 250px;
+        top: 10px;
+        left:40px;
+        right: 0px;
+        background: #37133d;
+        transition: 0.6s;
+        z-index: 1000;
+        height: 0px;
+        visibility: hidden;
+        overflow-y: hidden;
+        border-radius: 20px;
+      }
+      #nav{
+        position: absolute;
+        top:15px;
+      }
+      #nav.active #menu {
+        height: calc(75vh - 70px);
+        visibility: visible;
+        overflow-y: auto;
+      }
+      #menu a {
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid white;
+      }
+      #btn-mobile {
+        display: flex;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: 0.5rem;
+      }
+      #hamburger {
+        border-top: 2px solid;
+        width: 20px;
+        color: white;
+      }
+      #hamburger::after,
+      #hamburger::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: 0.3s;
+        position: relative;
+      }
+      #nav.active #hamburger {
+        border-top-color: transparent;
+      }
+      #nav.active #hamburger::before {
+        transform: rotate(135deg);
+      }
+      #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+      }
+      .logo img{
+        width:20%; 
+        float: right;
+        
+    }
+    header{
+        height: 28em;
+        background-size: 80%;
+        background-position: bottom center;
+    }
+    
+    .dicionario{
+        padding: 5px  50px ;
+    }
+    
+    .secoes{
+        display: none;
+    }
+
+    #box-servicos{
+        width: 100%;
+        height: 450px;
+       
+    } 
+    .servicos h1 {
+        font-size:20px;
+        
+    }
+    .servicos h2 {
+        font-size: 10px;
+    }
+
+
+
+    .box-planos-single img{
+        width: 50px;
+        height: 50px;
+        margin: 0 auto;
+        margin-left: 40%;
+    }
+
+    .box-planos-single{
+        width: 50%;
+        padding: 0 10px;
+       
+    }
+
+    .box-planos-single h2{
+        font-size:13px;
+        white-space: nowrap;
+        text-align: left;
+        
+    }
+    .box-planos-single p{
+        font-size: 9px ;
+    }
+
+    .box-planos-single2 img{
+        width: 50px;
+        height: 50px;
+        margin: 0 auto;
+    }
+    .box-planos-single2{
+        width: 50%;
+        padding: 0 10px;
+       
+    }
+
+    .box-planos-single2 h2{
+        font-size:13px;
+        white-space: nowrap;
+        text-align: left;
+        
+    }
+    .box-planos-single2 p{
+        font-size: 9px ;
+        text-align: left;
+    }
+      #empresa{
+        height:500px;
+    }
+    #metas{
+        width: 30%;
+        margin: 0 auto;
+        align-items: center;
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left:0;
+        right:0;
+    }
+
+    .box-missao{
+        position: absolute;
+        left: 15px;
+        right: 25px;
+        top: 180px;
+    }
+
+    .box-missao h1{
+        font-size:15px;
+    }
+
+    .box-missao p{
+        font-size:9px;
+    }
+    .box-visao{
+        position: absolute;
+        left: 15px;
+        right: 35px;
+        top: 250px;
+    }
+
+    .box-visao h1{
+        font-size:15px;
+    }
+
+    .box-visao p{
+        font-size:9px;
+    }
+    .box-valores{
+        left: 15px;
+        position: absolute;
+        top: 315px;
+    }
+
+    .box-valores h1{
+        font-size:15px;
+    }
+
+    .box-valores p{
+        font-size:9px;
+    }
+
+    .box-funcionarios{
+        display:none;
+         
+    }
+    #clientes{
+        width: 100%;
+        height: 300px;
+        
+    }
+    #orcamento{
+        height:550px;
+        display:flex;
+        flex-direction:column;
+    }
+
+    .chamada img{
+        width:200px;
+        height:200px;
+        position:relative;
+        left:35%;
+        margin: 0 auto;
+    }
+
+    .chamada-1{
+        text-align:center;
+        width:80%;
+        margin: 0 auto; 
+        padding-top: 10px;
+        font-size: 8px;
+    }
+
+
+    #botao{
+        font-size:8px;
+        margin-top: 2%;
+        
+    }
+}
+    
+
+@media (max-width:990px){
+    .chamada-1{
+        text-align: left;
+        font-size: 25px;
+    }
+
+    .chamada-2{
+        text-align: left;
+        font-size: 20px;
+    }
+
+    #botao{
+        font-size:15px;
+        margin-top: 15%;
+       
+}
+.box-planos-single img{
+
+    margin-left: 40%;
+}
+}
+
+   

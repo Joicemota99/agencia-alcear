@@ -1,0 +1,676 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+    box-sizing: border-box;
+}
+
+
+header{
+    width: 100%;
+    height: 34.98em;
+    background-color: #9935aa;
+    background-image: url(/imagens/web.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.logo img{
+    width:20%;
+    margin-top: 2.5%;
+    float: right;
+    
+}
+
+
+.dicionario{
+    width: 400px;
+    padding: 85px  50px ;
+    display: inline-block;
+    vertical-align: top;
+}
+.dicionario h1{
+ width: 77px;
+  height: 20px;
+  margin: 12.5px 10px 4px 5px;
+  font-family:'Roboto Slab', serif;
+  font-size: 1.3em;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #f5f5f5;
+    
+}
+.dicionario p{
+  margin: 8px 9px 10px 28px;
+  object-fit: contain;
+  mix-blend-mode: lighten;
+  font-family:'Fira Code', monospace;
+  font-size: 10px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: #f5f5f5;
+}
+.dicionario h2{
+width: 200px;
+height: 10.5px;
+margin: 10px 463px 3.5px 0;
+object-fit: contain;
+mix-blend-mode: lighten;
+font-family: 'Fira Code', monospace;
+font-size: 12.5px;
+font-weight: 800;
+font-stretch: normal;
+font-style: normal;
+line-height: 0.8;
+letter-spacing: 0.38px;
+text-align: left;
+color: #cec9c9;
+}
+
+.dicionario img{
+    float: right;
+    margin: 14px 180px 0 9px;
+    width: 23px;
+    height: 25px;
+    cursor: pointer;
+
+}
+.website{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    
+    
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+  
+  a:hover {
+    color: #ffd83a;
+    
+  }
+  
+  #logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  #header {
+    box-sizing: border-box;
+    height: 70px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #e7e7e7;
+    
+  }
+  
+  #menu {
+    width: 100%;
+    height: 57px;
+    padding: 0 0 50px 500px;
+    position: absolute;
+    bottom:0;
+    box-shadow: inset 0 2px 2px 0 rgba(0, 0, 0, 0.25);
+    background-color: #37133d;
+    position: fixed;
+    display:flex;
+    flex-direction: row;
+    font-size: 15px;
+    z-index : 2000;
+    
+    list-style: none;
+    gap: 0.5rem;
+  }
+  
+  #menu a {
+    display: block;
+    padding: 1.4rem;
+  }
+
+  .logo-menu img{
+    width:190px;
+    height:60px;
+    position: absolute;
+    left: 160px;
+   
+  }
+  
+  #btn-mobile {
+    display: none;
+  }
+
+#box-servicos{
+    width: 100%;
+    height: 620px;
+   
+}
+
+.servicos{
+    width: 100%;
+    height: 70px;
+    background-color:white;
+    font-family: 'Inter', sans-serif;
+    flex-grow: 0;
+    padding: 3px 13.5px 19px 25.5px;
+    color: #9935aa; 
+    
+}
+
+.servicos h1 {
+    font-size:30px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.servicos h2 {
+    font-size: 15px;
+    text-align: center;
+    color: #af84b7;
+}
+
+
+.box-planos-single img{
+    width: 109px;
+    height: 106.5px;
+    align-items:center;
+    margin-left: 245px;
+}
+
+
+.box-planos > .center{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.box-planos-single{
+    width: 50%;
+    padding: 0 40px;
+   
+}
+
+.box-planos-single h2{
+
+    color:#37133d;
+    text-align:center;
+    font-weight: bold;
+    padding:3px 2%;
+    
+}
+.box-planos-single p{
+    color: #9935aa ;
+}
+
+
+
+.box-planos2{
+    align-items: center;
+    text-align: center;
+}
+
+.box-planos2 > .center2{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.box-planos-single2{
+    width: 50%;
+    padding: 0 40px;
+}
+
+.box-planos-single2 h2{
+    color:#37133d;
+    font-weight: bold;
+    text-align:center;
+    padding:3px 2%;
+    
+}
+
+.box-planos-single2 p{
+    color: #9935aa ;
+}
+
+.box-planos-single2 img{
+    width: 109px;
+    height: 106.5px;
+}
+
+.box-planos-single2{
+    width: 50%;
+}
+
+.box-planos-wraper{
+    width:100%;
+}
+
+#empresa{
+    width:100%;
+    height: 617px;
+    margin: 0;
+    
+}
+
+#metas{
+    width:26%;
+    float:right;
+    margin-top: 28px;
+    margin-right: 40px;
+}
+.box-empresa{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 60px;
+    color: #a54bac;
+    font-weight: bold;
+    
+
+    
+}
+.box-missao{
+    padding-bottom: 20px;;
+}
+.box-missao p{
+    padding-top:10px;
+    color: #af84b7;
+}
+.box-visao{
+    padding-bottom: 20px;;
+}
+.box-visao p{
+    padding-top:10px;
+    color: #af84b7;
+}
+.box-valores p{
+    padding-top:10px;
+    color: #af84b7;
+}
+
+.box-funcionarios{
+    width:50%;
+    height:180px;
+    display: flex;
+    flex-direction: row;
+    margin-left:45.5%;
+    background-color: #a54bac;
+    border: 5px solid #a54bac;
+    box-shadow: 15px -11px #37133d;
+    border-radius:10px;
+    color: white;
+     
+
+}
+.funcionarios h1{
+    font-size:12px;
+   
+    
+}
+.funcionarios p{
+    font-size:12px;
+}
+.funcionarios img{
+    width: 80px;
+    height: 80px;
+    border-radius:50%;
+}
+
+.amanda{
+    width: 50%;
+    height:75%;
+    margin-top: 2%;
+    padding-left: 10px;
+    
+}
+.amanda img{
+    margin-top: 2%;
+    margin-left: 25%;
+}
+
+.amanda h1{
+    margin-left: 20%;
+}
+.amanda p{
+    margin-left: 20%;
+}
+.joice{
+    width: 50%;
+    height:75%;
+    margin-top: 2%;
+    padding-left: 10px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    
+}
+.joice img{
+    margin-top: 2%;
+    margin-left: 25%;
+}
+
+.joice h1{
+    margin-left: 30%;
+}
+.joice p{
+    margin-left: 18%;
+}
+.taiane{
+    width: 50%;
+    padding-left: 10px;
+    
+}
+
+.taiane img{
+    margin-top: 10%;
+    margin-left: 25%;
+}
+
+.taiane h1{
+    margin-left: 25%;
+}
+.taiane p{
+    margin-left: 20%;
+}
+
+#clientes{
+    width: 100%;
+    height: 618px;
+    
+}
+
+.box-clientes-txt{
+    background-color:#37133d;
+    
+}
+
+#clientes h1{
+    padding-top:5%;
+    padding-bottom:5%;
+    text-align: center;
+    color: #ffd83a;
+    font-size: 45px;
+}
+
+.cliente-1{
+    width:50%;
+    
+}
+.cliente-1 img{
+    width: 70%;
+
+    
+}
+.cliente-2{
+    width:50%;
+   
+}
+.cliente-2 img{
+    width: 70%;
+}
+.cliente3{
+    width:50%;
+ 
+}
+.cliente3 img{
+   width: 60%;
+   border-radius: 50%;
+
+}
+.box-clientes{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:5%;
+    padding-left: 10%;
+    align-items: center;
+}
+
+#orcamento{
+    width:100%;
+    height:619px;
+    background-color:#af84b7;
+    display:flex;
+}
+.chamada img{
+    margin-left: 10%;
+}
+.chamada-1{
+    text-align:right;
+    width:40%;
+    margin: 5% 0 0 10%;
+    font-size: 32px;
+    color: white;
+}
+.chamada-2{
+    text-align: right;
+    font-size: 27.5px;
+    margin: 5% 0 0 ;
+    color: white;
+}
+#botao{
+    border: none;
+    font-size:19.2px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    margin-top: 10%;
+    align-items: center;
+    border-radius:40px;
+    box-shadow:  10px 5px 5px #9935aa;
+    color: #37133d;
+    padding:5%;
+    cursor:pointer;
+}
+
+#botao:active{
+        padding-bottom:8%;
+        margin-bottom: 8%;
+}
+
+.box-container{
+    width:100vw;
+    height:100vh;
+    background-color: rgba(0,0,0,.5);
+    position:fixed;
+    top:0;
+    left: 0;
+    z-index: 2000;
+    display: none;
+    justify-content:center;
+    align-items:center;
+    
+  
+}
+
+
+.box-form{
+    background-color:white;
+    width:30%;
+    min-width: 300px;
+    border: 10px solid #af84b7;
+    border-radius:10%;
+    box-shadow: 0 0 0 10px white;
+    position:relative;
+    
+}
+
+.box-form h3{
+    padding-top:25px;
+    text-align:center;
+    color: #37133d;
+    font-size:25px;
+}
+
+@keyframes box-form{
+    from{
+        opacity: 0;
+        transform: translate3d(0,-60px,0);
+    }
+    to{
+        opacity: 1;
+        transform:translate3d(0,0,0);
+    }
+}
+
+.mostrar .box-form{
+    animation: box-form .3s;
+}
+
+#fechar{
+    position:absolute;
+    font-size: 1.2em;
+    top:-30px;
+    right:-30px;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    border: 4px solid white;
+    background-color:#af84b7;
+    font-family: monospace;
+    cursor:pointer;
+    color:white;
+    box-shadow:  0 4px 4px 0 rgba(0,0,0,.3);
+}
+
+form{
+    align-items: center;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    
+    
+
+}
+
+form h1{
+    width:100%;
+    padding-top: 2%;
+    text-align:center;
+    font-size:15px;
+    color:#a54bac;
+
+}
+
+#nome{
+    padding:8px;
+    margin-bottom: 10px;
+    border: 3px solid #af84b7;
+    border-radius:20px;
+}
+#email{
+    padding:8px;
+    margin-bottom: 10px;
+    border: 3px solid #af84b7;
+    border-radius:20px;
+}
+#telefone{
+    padding:8px;
+    border: 3px solid #af84b7;
+    border-radius:20px;
+    margin-bottom: 10px;
+}
+
+#enviar{
+    display:flex;
+    margin-left: 41%;
+    margin-bottom: 5%;
+    background-color: #af84b7;
+    color:white;
+    border: 1px solid #f5f5f5;
+    border-radius:15px;
+    padding:4%;
+    cursor: pointer;
+    flex-direction:column;
+   
+}
+
+#box-footer{
+    background-color: #37133d;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#box-footer h1{
+    font-size:20px;
+    position:relative;
+    left: 90px;
+    top: 10px;
+    color: white;
+}
+
+.mideas-sociais{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 50px;
+    right: 175px;
+}
+
+.mideas-sociais img{
+    position:relative;
+    left: 43px;
+    width: 28%;
+    height: 15%;
+}
+
+.mideas-sociais h2{
+    font-size:10px;
+    padding-left: 30px;
+    color: white;
+}
+
+.empresa-footer{
+    background-color: #37133d;
+    width: 50%;
+    position: absolute;
+    left: 30%;
+    
+}
+
+.empresa-footer h2{
+    color: white;
+    font-size:10px;
+    text-align: center;
+    
+}
+
+.empresa-footer p{
+    color: white;
+    font-size:8px;
+    text-align: center;
+    
+}
+
+.logo-footer img{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 45%;
+}
+
+
+
+
+
+
+
+

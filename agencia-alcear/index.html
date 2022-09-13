@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Estilo CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Estilo CSS animacao -->
+    <link rel="stylesheet" href="./css/animacao.css">
+    <!-- Responsivo -->
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- Estilo da caligrafica de transitivo alcear : ínicio -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <!-- Estilo da caligrafica de alcear : ínicio -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Roboto+Slab:wght@100&display=swap" rel="stylesheet">
+    <!-- Estilo da caligrafica do corpo -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Inter:wght@300&family=Roboto+Slab:wght@100&display=swap" rel="stylesheet">
+    <!-- Estilo da caligrafica do corpo -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Inter:wght@300;400;700&family=Roboto+Slab:wght@100&display=swap" rel="stylesheet">
+    <!-- Icone do navegador -->
+    <link rel="icon" type="image/png" href="./imagens/logo2.png"/>
+    <title>Agência Alcear</title>
+</head>
+<body>
+    <!-- Dicionário e Background-->
+    <header>        
+        <div class="logo">
+         <img src="./imagens/logo.png">
+        </div>
+        <div class="dicionario">
+            <img src="./imagens/som.png" onclick="tocarAudio()"/>
+            <h1>alcear;</h1>
+            <p>verbo</p>
+            <h2>1. transitivo direto</h2>
+            <p>pôr no alto; alçar; altear; erguer.</p>
+            <h2>2. transitivo direto</h2>
+            <p>prover (algo) de alça.</p>
+        </div>
+    <!-- Rolagem de Inicio da navegação -->
+  
+    <nav id="nav">
+      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+        <span id="hamburger"></span>
+      </button>
+      
+      <ul id="menu" role="menu">
+        <div class="logo-menu">
+            <img src="./imagens/Agencia04.png" alt="logo">
+          </div>
+        <li> <a href="#">ÍNICIO</a></li>
+        <li> <a href="#box-servicos">SERVIÇOS</a></li>
+        <li> <a href="#empresa">SOBRE</a></li>
+        <li> <a href="#clientes">CLIENTES</a></li>
+        <li> <a href="#orcamento">FAÇA JÁ SEU ORÇAMENTO</a></li>
+        <li> <a href="#box-footer">SIGA-NOS</a></li>
+      </ul>
+    </nav>
+
+</header>
+ 
+    <!-- Serviços -->
+    <section id="box-servicos" class ="animate" data-anime="left">
+    <div class="servicos " >
+        <h1 class="titulo">NOSSOS SERVIÇOS</h1>
+        <h2>SAIBA MAIS SOBRE NOSSA ESPECIALIDADE</h2>      
+        </div>
+
+    <section class="box-planos">
+        <div class="center">
+            
+            <div class="box-planos-single ">
+                <div class="box-planos-wraper">
+                <img src="./imagens/servicos/pc.png">
+                <h2>Gerenciamento de </br>
+                    Marketing e Mideas</br>
+                     Sociais</h2>
+                <div class="pontos-plano">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                
+                </div><!--Pontos-Plano-->
+                </div>
+            </div><!--Pontos-Planos-Single-->
+
+            <div class="box-planos-single animate" data-anime="right">
+                <div class="box-planos-wraper">
+                <img src="./imagens/servicos/engrenagem.png">
+                <h2>Gerenciamento </br>
+                    de Tráfego</h2>
+                <div class="pontos-plano">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                </div><!--Pontos-Plano-->
+                </div>
+            </div><!--Pontos-Planos-Single-->
+
+        </div>
+        </section>
+        <section class="box-planos2">
+            <div class="center2">
+
+        <div class="box-planos-single2 " >
+            <img src="./imagens/servicos/aaaa.png" >
+            <div class="box-planos-wraper">
+            <h2>Criação de Lading Page</h2>
+            <div class="pontos-plano2">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            </div><!--Pontos-Plano-->
+            </div>
+        </div><!--Pontos-Planos-Single-->
+
+        <div class="box-planos-single2 " >
+            <img src="./imagens/servicos/aaaaa.png">
+            <div class="box-planos-wraper">
+            <h2>Branding</h2>
+            <div class="pontos-plano2">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            </div><!--Pontos-Plano-->
+            </div>
+        </div><!--Pontos-Planos-Single-->
+
+        </div>
+        </section>
+    </section>
+    <!-- Missão, visão e valores -->
+    <section id="empresa" class="animate" data-anime="right">
+        <img src="./imagens/metas.png" id="metas" >
+        <div class="box-empresa" >
+        <div class="box-missao">
+            <h1>➜ MISSÃO</h1>
+            <p>Alcear o marketing de nossos clientes, com comprometimento e pontualidade.</p>
+        </div> <!--Valores-->
+        <div class="box-visao">
+            <h1>➜ VISÃO</h1>
+            <p>Ser referência no mercado de consultoria e agenciamento de marketing.</p>
+        </div>
+        <div class="box-valores">
+            <h1>➜ VALORES</h1>
+            <p>Agimos com propósito </br>
+                Entregamos resultados com excelência</br>
+                Construímos juntos</br>
+                Trabalhamos com simplicidade</br>
+                Estamos 1% melhores todos os dias</br>
+                Somos verdadeiros</br></p>
+            </div><!--Valores-->
+        </div><!--Empresa-->
+        <div class="funcionarios animate" data-anime="right">
+            <div class="box-funcionarios">
+            <div class="amanda">
+            <img src="./imagens/Amanda.jpg" id="amanda">
+            <h1>Amanda Leandro</h1>
+            <p>Diretora Criativa</br>
+                Designer Gráfica</br>
+                Ilustradora</p>
+             </div>
+             <div class="joice">
+            <img src="./imagens/joice.jpg" id="joice">
+            <h1>Joice Mota</h1>
+            <p>Desenvolvedora Web</p>
+            </div>
+            <div class="taiane">
+            <img src="./imagens/taiane.jpg" id="taiane">
+            <h1>Taiane Fonseca</h1>
+            <p>Gerente de Marketing</br>
+             Fundadora da Agência </br>
+             Alcear </br>
+             </p>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- Clientes -->
+    <section id="clientes">
+        
+        <div class="box-clientes-txt">
+        <h1>CLIENTES</h1>
+        </div>
+
+        <div class="box-clientes animate" data-anime="right">
+        <div class="cliente-1">
+            <img src="./imagens/MEDBA.png">
+        </div>
+        <div class="cliente-2">
+            <img src="./imagens/clientes/alcoolivery.png">
+        </div>
+        <div class="cliente3">
+            <img src="./imagens/mandragora.png">
+        </div>
+        </div>
+    </section>
+    <!-- Chamada -->
+
+    <section id="orcamento" >
+        <div class="chamada animate" data-anime="right">
+            <img src="./imagens/chinesa-gritando.png">
+        </div>
+        <div class="chamada-1 animate" data-anime="right">
+            <h1>PONHA SUA EMPRESA NO ALTO</h1>
+            <div class="chamada-2 animate" data-anime="right">  
+                <h1>ALCE COM A GENTE!</h1>
+                <input type="button" id="botao" value="CLIQUE AQUI E FAÇA SEU ORÇAMENTO!" onclick="abrirJanela()">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Formulário -->
+
+    <div id= "modal-promocao" class="box-container ">
+        <div class="box-form">
+            <button onclick="fecharJanela()" id="fechar">X</button>
+            <h3>ENTRE EM CONTATO</h3>
+        <form>
+            <h1>Digite seu Nome:</h1>
+            <input type="text" id="nome" placeholder="Nome">
+            <h1>Digite seu E-mail:</h1>
+            <input type="email" id="email" placeholder="E-mail">
+            <h1>Digite seu WhatsApp:</h1>
+            <input type="number" id="telefone" placeholder="Numero">
+        </form>
+        <button onclick="enviar()" id="enviar">Enviar</button> 
+        </div>
+    </div>
+    <!-- Rodapé -->
+    <footer>
+        <div id="box-footer">
+            <h1>Siga-nos nas Redes Sociais</h1>
+            <div class="mideas-sociais">
+                <div id="instagram">
+                    <a href="https://www.instagram.com/agenciaalcear/"><img src="./redes-sociais/redes-sociais/instagram.png" alt="instagram" id="instagram"></a>
+                    <h2>Instagram</h2> 
+                </div>
+                <div id="linkedin">
+                    <a href="https://www.linkedin.com/company/ag%C3%AAncia-alcear/"><img src="./redes-sociais/redes-sociais/linkedin.png" alt="linkedin" id="linkedin"> </a>
+                    <h2>Linkedin</h2>
+                </div>
+                <div id="whatsapp">
+                    <a href=""><img src="./redes-sociais/redes-sociais/whatsapp.png" alt="whatsapp" id="whatsapp"> 
+                <h2>WhatsApp</h2>
+                </div>
+        </div>
+        <div class="empresa-footer">
+            <div class="logo-footer">
+                <img src="./imagens/logo2.png" alt="logo-footer">
+            </div>
+            <h2>© 2022 Agência Alcear | Salvador/Bahia</h2>
+            <p>Landing Page feito por : Agência Alcear</p>
+            <p>CNPJ:</p>
+        </div>
+         </div>
+       
+    </footer>
+    
+
+<script type="text/javascript" src="./js/app.js"></script>
+</body>
+</html>
